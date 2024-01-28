@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.custom-button-class {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.timer {
+  display: flex;
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.label {
+  text-transform:uppercase;
+}
