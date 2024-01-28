@@ -5,8 +5,9 @@
   "homepage": "https://github.com/damian-ionut/goit-js-hw-09",
   "scripts": {
     "start": "parcel src/*.html",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09"
   },
   "repository": {
     "type": "git",
